@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Mar 14 11:40:07 2026
+# Process ID         : 2996
+# Current directory  : D:/SATHISH/project_dcnn - Copy 1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10744 D:\SATHISH\project_dcnn - Copy 1\project_dcnn.xpr
+# Log file           : D:/SATHISH/project_dcnn - Copy 1/vivado.log
+# Journal file       : D:/SATHISH/project_dcnn - Copy 1\vivado.jou
+# Running On         : DESKTOP-FCS0GRK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 7530U with Radeon Graphics         
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16483 MB
+# Swap memory        : 20401 MB
+# Total Virtual      : 36884 MB
+# Available Virtual  : 13272 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/SATHISH/project_dcnn - Copy 1/project_dcnn.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_LeNet.tcl
+close_sim
+launch_simulation
+source tb_LeNet.tcl
+close_sim
+launch_simulation
+source tb_LeNet.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+close_sim

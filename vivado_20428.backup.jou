@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Apr 17 13:25:28 2026
+# Process ID         : 20428
+# Current directory  : D:/SATHISH/Project_dcnn - B-13
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent4136 D:\SATHISH\Project_dcnn - B-13\project_dcnn.xpr
+# Log file           : D:/SATHISH/Project_dcnn - B-13/vivado.log
+# Journal file       : D:/SATHISH/Project_dcnn - B-13\vivado.jou
+# Running On         : DESKTOP-FCS0GRK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 7530U with Radeon Graphics         
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16483 MB
+# Swap memory        : 18253 MB
+# Total Virtual      : 34737 MB
+# Available Virtual  : 18820 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/SATHISH/Project_dcnn - B-13/project_dcnn.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_simulation
+source tb_LeNet.tcl

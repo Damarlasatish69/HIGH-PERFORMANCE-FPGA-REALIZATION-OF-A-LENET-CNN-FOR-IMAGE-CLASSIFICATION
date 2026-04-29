@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/Conv3D.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/FC.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/LeNet.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/MACC.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/Multiplication.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE_Array.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/max2.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/softmax.v" \
+"../../../../project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/tb_LeNet.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

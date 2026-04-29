@@ -1,0 +1,15 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.sim/sim_1/behav/xsim/glbl.v,1769007683,verilog,,,,glbl,,,,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/Conv3D.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/FC.v,,Conv3D;PE_Matrix6F,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/FC.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/LeNet.v,,FC,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/LeNet.v,1776422312,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/MACC.v,,LeNet,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/MACC.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/Multiplication.v,,MACC,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/Multiplication.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE.v,,Multiplication,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE_Array.v,,PE,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/PE_Array.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/max2.v,,PE_Array,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/max2.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/softmax.v,,max2,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/softmax.v,1769007684,verilog,,D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/tb_LeNet.v,,softmax,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/SATHISH/Project_dcnn - B-13/project_dcnn.srcs/sources_1/imports/Verilog-Source-Files/tb_LeNet.v,1769007684,verilog,,,,tb_LeNet,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
